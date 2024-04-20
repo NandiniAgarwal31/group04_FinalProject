@@ -9,18 +9,7 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            < <h1>Welcome to LeetCode Problem Solver</h1>
-            <asp:DropDownList ID="ddlLeetCode" runat="server" AutoPostBack="true" OnSelectedIndexChanged="ddlLeetCode_SelectedIndexChanged">
-                <asp:ListItem Text="Select a Problem" Disabled="True" Selected="True"></asp:ListItem>
-                <asp:ListItem Text="Climbing Stairs" Value="Stairs"></asp:ListItem>
-                <asp:ListItem Text="Integer to Roman" Value="Integer"></asp:ListItem>
-                <asp:ListItem Text="Basic Calculator" Value="Calc"></asp:ListItem>
-        
-            </asp:DropDownList>
-            <asp:Button ID="btnSolve" runat="server" Text="Solve" OnClick="btnSolve_Click" />
-            <div id="ProblemDescription" runat="server"></div>
-            <div id="testCase" runat="server"></div>
-            <div id="solution" runat="server"></div>
+            <asp:ListBox ID="ListBox1" runat="server"></asp:ListBox>
         </div>
    </form>
 </body>
