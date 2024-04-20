@@ -12,10 +12,9 @@
         <form id="form1" runat="server">
             <asp:DropDownList ID="ddlLeetCode" runat="server" AutoPostBack="true" OnSelectedIndexChanged="ddlLeetCode_SelectedIndexChanged">
                 <asp:ListItem Text="Select a Problem" Disabled="false" Selected="True"></asp:ListItem>
-                <asp:ListItem Text="Intger to roman Problem" Value="Intger to roman"></asp:ListItem>
+                <asp:ListItem Text="Intger to Roman Problem" Value="Intger to roman"></asp:ListItem>
                 <asp:ListItem Text="Basic Calutator Problem" Value="Basic Calutator"></asp:ListItem>
-                <!--<asp:ListItem Text="Divide Two Integers" Value="Divide"></asp:ListItem>-->
-             
+
             </asp:DropDownList>
             <asp:Button ID="btnSolve" runat="server" Text="Solve" OnClick="btnSolve_Click" />
             <div id="ProblemDescription" runat="server"></div>
