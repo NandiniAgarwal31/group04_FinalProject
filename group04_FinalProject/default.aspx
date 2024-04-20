@@ -11,10 +11,10 @@
         <h1>Welcome to LeetCode Problem Solver</h1>
         <form id="form1" runat="server">
             <asp:DropDownList ID="ddlLeetCode" runat="server" AutoPostBack="true" OnSelectedIndexChanged="ddlLeetCode_SelectedIndexChanged">
-                <asp:ListItem Text="Select a Problem" Disabled="True" Selected="True"> </asp:ListItem>
-                <asp:ListItem Text="Candy Problem" Value="Candy"></asp:ListItem>
-                <asp:ListItem Text="Palindrome Problem" Value="Palindrome"></asp:ListItem>
-                <asp:ListItem Text="Divide Two Integers" Value="Divide"></asp:ListItem>
+                <asp:ListItem Text="Select a Problem" Disabled="false" Selected="True"></asp:ListItem>
+                <asp:ListItem Text="Intger to roman Problem" Value="Intger to roman"></asp:ListItem>
+                <asp:ListItem Text="Basic Calutator Problem" Value="Basic Calutator"></asp:ListItem>
+                <!--<asp:ListItem Text="Divide Two Integers" Value="Divide"></asp:ListItem>-->
              
             </asp:DropDownList>
             <asp:Button ID="btnSolve" runat="server" Text="Solve" OnClick="btnSolve_Click" />
