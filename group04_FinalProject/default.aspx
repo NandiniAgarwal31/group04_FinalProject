@@ -7,8 +7,8 @@
     <title></title>
 </head>
 <body>
-        <div class="container">
-        <h1>Welcome to LeetCode Problem Solver</h1>
+        <div>
+        
         <form id="form1" runat="server">
             <asp:DropDownList ID="ddlLeetCode" runat="server" AutoPostBack="true" OnSelectedIndexChanged="ddlLeetCode_SelectedIndexChanged">
                 <asp:ListItem Text="Select a Problem" Disabled="false" Selected="True"></asp:ListItem>
