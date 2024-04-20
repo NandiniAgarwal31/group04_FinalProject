@@ -28,7 +28,7 @@ namespace group04_FinalProject
 
                 case "leetcodeProblemBasicCalculator":
                     ProblemDescription.InnerText = "Given a string s representing a valid expression, implement a basic calculator to evaluate it, and return the result of the evaluation. ";
-                    testCase.InnerText = "s = "1 + 1"";
+                    testCase.InnerText = "s = 1 + 1";
                     break;
 
                // case "Candy":
