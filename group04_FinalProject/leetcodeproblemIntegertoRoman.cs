@@ -11,8 +11,6 @@ namespace group04_FinalProject
 
         {
 
-
-
             // Arrays for Roman numeral symbols and their corresponding values
 
             string[] symbols = { "M", "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I" };
