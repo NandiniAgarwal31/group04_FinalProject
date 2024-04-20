@@ -21,20 +21,20 @@ namespace group04_FinalProject
             {
                
 
-                case "Integer to Roman Problem":
+                case "leetcodeproblemIntegertoRoman":
                     ProblemDescription.InnerText = "Roman numerals are represented by seven different symbols: I, V, X, L, C, D and M.Given an integer, convert it to a roman numeral.";
                     testCase.InnerText = "Test case: Input: dividend = 10, divisor = 2";
                     break;
 
-                case "ZigZag":
-                    ProblemDescription.InnerText = "The string 'PAYPALISHIRING' is written in a zigzag pattern on a given number of rows, and then read line by line:'PAHNAPLSIIGYIR' ";
-                    testCase.InnerText = "N/A";
+                case "leetcodeProblemBasicCalculator":
+                    ProblemDescription.InnerText = "Given a string s representing a valid expression, implement a basic calculator to evaluate it, and return the result of the evaluation. ";
+                    testCase.InnerText = "s = "1 + 1"";
                     break;
 
-                case "Candy":
-                    ProblemDescription.InnerText = "There are 'n' children standing in a line. Each child is assigned a rating value given in the integer array rating.You are giving candies to these children subjected to the following requirements:\r\n\r\nEach child must have at least one candy. Children with a higher rating get more candies than their neighbors.\r\nReturn the minimum number of candies you need to have to distribute the candies to the children.";
-                    testCase.InnerText = "Test case: Input: ratings=[1,0,2]";
-                    break;
+               // case "Candy":
+                    //ProblemDescription.InnerText = "There are 'n' children standing in a line. Each child is assigned a rating value given in the integer array rating.You are giving candies to these children subjected to the following requirements:\r\n\r\nEach child must have at least one candy. Children with a higher rating get more candies than their neighbors.\r\nReturn the minimum number of candies you need to have to distribute the candies to the children.";
+                    //testCase.InnerText = "Test case: Input: ratings=[1,0,2]";
+                   // break;
                 default:
                     break;
             }
@@ -47,9 +47,9 @@ namespace group04_FinalProject
             //Invoke
             switch (selectedProblem)
             {
-                case "Candy":
-                    Candy candySolution = new Candy();
-                    solution.InnerText = "Candy Problem Solution: " + candySolution._Candy(new int[] { 1, 0, 2 });
+                case "leetcodeproblemIntegertoRoman":
+                    Intger to roman IntToRomanSolution = new IntToRoman();
+                    solution.InnerText = "Integer to Roman Solution: " + candySolution._Candy(new int[] { 1, 0, 2 });
                     break;
                 case "ZigZag":
                     ZigZag zigZagSolution = new ZigZag();
