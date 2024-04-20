@@ -10,8 +10,6 @@ namespace group04_FinalProject
         public string IntToRoman(int num)
 
         {
-            // Test Commit COmment!
-
             // Arrays for Roman numeral symbols and their corresponding values
 
             string[] symbols = { "M", "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I" };
