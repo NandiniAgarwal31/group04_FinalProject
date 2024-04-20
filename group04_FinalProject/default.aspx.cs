@@ -47,22 +47,6 @@ namespace group04_FinalProject
             //Invoke
             switch (selectedProblem)
             {
-                case "leetcodeproblemIntegertoRoman":
-                    Intger to roman IntToRomanSolution = new IntToRoman();
-                    solution.InnerText = "Integer to Roman Solution: " + candySolution._Candy(new int[] { 1, 0, 2 });
-                    break;
-                case "ZigZag":
-                    ZigZag zigZagSolution = new ZigZag();
-                    solution.InnerText = "ZigZag Problem Solution: " + zigZagSolution.Convert("PAYPALISHIRING", 3);
-                    break;
-                case "Palindrome":
-                    Palindrome palindromeSolution = new Palindrome();
-                    solution.InnerText = "Palindrome Problem solution: " + palindromeSolution.IsPalindrome(121);
-                    break;
-                case "Divide":
-                    Divide divideSolution = new Divide();
-                    solution.InnerText = "Divide Two Integers Solution: " + divideSolution._Divide(10, 2);
-                    break;
                 default:
                     break;
             }
