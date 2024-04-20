@@ -15,7 +15,7 @@
                 <asp:ListItem Text="Candy Problem" Value="Candy"></asp:ListItem>
                 <asp:ListItem Text="Palindrome Problem" Value="Palindrome"></asp:ListItem>
                 <asp:ListItem Text="Divide Two Integers" Value="Divide"></asp:ListItem>
-                <asp:ListItem Text="ZigZag Conversion" Value="ZigZag"></asp:ListItem>
+             
             </asp:DropDownList>
             <asp:Button ID="btnSolve" runat="server" Text="Solve" OnClick="btnSolve_Click" />
             <div id="ProblemDescription" runat="server"></div>
