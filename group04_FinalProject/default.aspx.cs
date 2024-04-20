@@ -19,13 +19,10 @@ namespace group04_FinalProject
             //display problem description and test case
             switch (selectedProblem)
             {
-                case "Palindrome":
-                    ProblemDescription.InnerText = "Given an integer x, return true if x is a palindrome, and false otherwise.";
-                    testCase.InnerText = "Input: Test case: x=121";
-                    break;
+               
 
-                case "Divide":
-                    ProblemDescription.InnerText = "Given two integers dividend and divisor, divide two integers without using multiplication, division, and mod operator.The integer division should truncate toward zero, which means losing its fractional part. For example, 8.345 would be truncated to 8, and -2.7335 would be truncated to -2.\r\n\r\nReturn the quotient after dividing dividend by divisor.";
+                case "Integer to Roman Problem":
+                    ProblemDescription.InnerText = "Roman numerals are represented by seven different symbols: I, V, X, L, C, D and M.Given an integer, convert it to a roman numeral.";
                     testCase.InnerText = "Test case: Input: dividend = 10, divisor = 2";
                     break;
 
