@@ -28,13 +28,13 @@ namespace group04_FinalProject
 
                 case "Basic Calculator":
                     ProblemDescription.InnerText = "Given a string s representing a valid expression, implement a basic calculator to evaluate it, and return the result of the evaluation. ";
-                    testCase.InnerText = "s = 1 + 1";
+                    testCase.InnerText = "Test case: Input:s = 1 + 1";
                     break;
 
-               // case "Candy":
-                    //ProblemDescription.InnerText = "There are 'n' children standing in a line. Each child is assigned a rating value given in the integer array rating.You are giving candies to these children subjected to the following requirements:\r\n\r\nEach child must have at least one candy. Children with a higher rating get more candies than their neighbors.\r\nReturn the minimum number of candies you need to have to distribute the candies to the children.";
-                    //testCase.InnerText = "Test case: Input: ratings=[1,0,2]";
-                   // break;
+                case "Climbing Stairs":
+                    ProblemDescription.InnerText = " You are climbing a staircase. It takes n steps to reach the top.Each time you can either climb 1 or 2 steps.In how many distinct ways can you climb to the top ? ";
+                    testCase.InnerText = "Test case: Input: n = 2";
+                    break;
                 default:
                     break;
             }
