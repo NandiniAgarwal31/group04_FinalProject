@@ -33,6 +33,24 @@ namespace group04_FinalProject
         protected global::System.Web.UI.WebControls.DropDownList ddlLeetCode;
 
         /// <summary>
+        /// lblSteps control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblSteps;
+
+        /// <summary>
+        /// txtSteps control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtSteps;
+
+        /// <summary>
         /// btnSolve control.
         /// </summary>
         /// <remarks>
