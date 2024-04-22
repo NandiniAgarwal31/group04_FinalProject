@@ -10,7 +10,7 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f5f5f5;
+            background-color: #ffe0e6;
         }
 
         .container {
@@ -26,9 +26,8 @@
         h1 {
             color: #333;
             margin-bottom: 20px;
-            text-align: center; /* Center the heading */
-            background-color: #ff69b4; /* Pink background */
-            padding: 10px; /* Add some padding for better appearance */
+            text-align: center; 
+            padding: 10px; 
             border-radius: 5px; 
         }
 
@@ -48,11 +47,11 @@
             padding: 10px 20px;
             font-size: 16px;
             border-radius: 5px;
-            background-color: #ff69b4; /* Pink color */
+            background-color: #ff69b4; 
             color: white;
             border: none;
             cursor: pointer;
-            margin-left: 10px;
+            margin-top: 10px; 
         }
 
         #ProblemDescription,
@@ -70,7 +69,7 @@
      
 </head>
 <body>
-   <h1>LeetCode Problem Solver</h1> <!-- Added heading -->
+   <h1>LeetCode Problem Solver</h1> 
     <div class="container">
         
         <form id="form1" runat="server">
@@ -84,12 +83,15 @@
     
     <asp:Label ID="lblSteps" runat="server" Text="Enter number of steps:" AssociatedControlID="txtSteps" Visible="false"></asp:Label>
     <asp:TextBox ID="txtSteps" runat="server" Visible="false"></asp:TextBox>
-
+<div>
     <asp:Button ID="btnSolve" runat="server" Text="Solve" OnClick="btnSolve_Click" />
-
+    </div>
     <div id="ProblemDescription" runat="server"></div>
     <div id="testCase" runat="server"></div>
     <div id="solution" runat="server"></div>
+            <div>
+    <asp:Button ID="Button1" runat="server" Text="Solve" OnClick="btnSolve_Click" />
+    </div>
 </form>
     </div>
 </body>
