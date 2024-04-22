@@ -89,9 +89,7 @@
     <div id="ProblemDescription" runat="server"></div>
     <div id="testCase" runat="server"></div>
     <div id="solution" runat="server"></div>
-            <div>
-    <asp:Button ID="Button1" runat="server" Text="Solve" OnClick="btnSolve_Click" />
-    </div>
+           
 </form>
     </div>
 </body>
