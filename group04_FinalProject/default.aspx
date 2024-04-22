@@ -89,7 +89,11 @@
     <div id="ProblemDescription" runat="server"></div>
     <div id="testCase" runat="server"></div>
     <div id="solution" runat="server"></div>
-            <asp:Image ID="Image1" runat="server"  ImageUrl="https://target.scene7.com/is/image/Target/GUEST_ae5472fe-56fd-4b39-9b44-994f7f9c6369?wid=488&hei=488&fmt=pjpeg"/>
+            </br>
+         <asp:Image ID="Image1" runat="server" ImageUrl="https://target.scene7.com/is/image/Target/GUEST_ae5472fe-56fd-4b39-9b44-994f7f9c6369?wid=488&hei=488&fmt=pjpeg" Width="150px" Align="Left" />
+<asp:Image ID="Image2" runat="server" ImageUrl="https://promova.com/content/what_number_is_x_9a75669b11.png" Width="200px" Align="Center" margin="100px"/>
+<asp:Image ID="Image3" runat="server" ImageUrl="https://i.pinimg.com/originals/bc/80/d4/bc80d447a28ddc625a44e77eb8c50ac0.jpg" Width="200px" Align="Right" />
+
 </form>
     </div>
 </body>
