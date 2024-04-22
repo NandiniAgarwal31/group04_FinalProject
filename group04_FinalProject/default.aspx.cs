@@ -53,17 +53,19 @@ namespace group04_FinalProject
                     break;
 
                 case "Climbing Stairs":
-                    if (int.TryParse(txtSteps.Text, out int steps)) 
-                    {
-                        leetcodeproblemClimbingStairs stairsSolution = new leetcodeproblemClimbingStairs();
-                        int waysToClimb = stairsSolution.ClimbStairs(steps);
-                        solution.InnerText = "Number of ways to climb " + steps + " steps: " + waysToClimb;
-                    }
-                    else
-                    {
-                        solution.InnerText = "Please enter a valid number of steps."; 
-                    }
+                    ProblemDescription.InnerText = "You are climbing a staircase. It takes n steps to reach the top. Each time you can either climb 1 or 2 steps. In how many distinct ways can you climb to the top?";
+                    testCase.InnerText = "Test case: Input: n = 1";
+
+                    // Clear any previous solution
+                    solution.InnerText = "1";
+
+                    // Optionally, you can enable or disable the input box based on the scenario
+                    txtSteps.Enabled = false; // Disable the input box to prevent user input
+
+                    // You can also optionally trigger the calculation here if needed
+
                     break;
+
             }
         }
     }
