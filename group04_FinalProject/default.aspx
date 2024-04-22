@@ -89,7 +89,7 @@
     <div id="ProblemDescription" runat="server"></div>
     <div id="testCase" runat="server"></div>
     <div id="solution" runat="server"></div>
-            <asp:Image ID="Image1" runat="server"  ImageUrl="https://target.scene7.com/is/image/Target/GUEST_ae5472fe-56fd-4b39-9b44-994f7f9c6369?wid=488&hei=488&fmt=pjpeg"/>
+           
 </form>
     </div>
 </body>
