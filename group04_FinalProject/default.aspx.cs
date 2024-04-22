@@ -1,4 +1,15 @@
-﻿
+﻿/*
+#Name:Manaal Ameer, Mahika Gunjkar, Nandini Agarwal.
+#Email: ameerml@mail.uc.edu, agarwand@mail.uc.edu, gunjkamg@mail.uc.edu.
+#Assignment Title : Final Project.
+#Due Date: 04/23/2024.
+#Course: IS 3050.
+#Semester/Year: Spring 2024.
+#Brief Description: Solved three LeetCodeProblem Solutions, difficulties- easy, hard, medium.
+#Citations: https://github.com/NandiniAnalytics/group04_FinalProject/commits/master/
+#Anything else that's relevant
+*/
+
 
 
 
