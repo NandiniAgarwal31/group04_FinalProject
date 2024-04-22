@@ -5,8 +5,8 @@
 #Due Date: 04/23/2024
 #Course: IS 3050
 #Semester/Year: Spring 2024
-#Brief Description: 
-#Citations: 
+#Brief Description: Given a string s representing a valid expression, implement a basic calculator to evaluate it, and return the result of the evaluation
+#Citations: https://leetcode.com/problems/basic-calculator/description/
 #Anything else that's relevant
 */
 
