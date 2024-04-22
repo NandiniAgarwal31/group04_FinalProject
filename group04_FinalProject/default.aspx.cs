@@ -8,7 +8,7 @@ namespace group04_FinalProject
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            // Optional initialization code here
+            
         }
 
         protected void ddlLeetCode_SelectedIndexChanged(object sender, EventArgs e)
@@ -23,7 +23,7 @@ namespace group04_FinalProject
 
                 case "Basic Calculator":
                     ProblemDescription.InnerText = "Given a string s representing a valid expression, implement a basic calculator to evaluate it, and return the result of the evaluation.";
-                    testCase.InnerText = "Test case: Input: s = '1 + 1'";
+                    testCase.InnerText = "Test case: Input: s = 0- 1";
                     break;
 
                 case "Climbing Stairs":
@@ -53,7 +53,7 @@ namespace group04_FinalProject
                     break;
 
                 case "Climbing Stairs":
-                    if (int.TryParse(txtSteps.Text, out int steps)) // Directly parse to 'steps' variable declared in if statement
+                    if (int.TryParse(txtSteps.Text, out int steps)) 
                     {
                         leetcodeproblemClimbingStairs stairsSolution = new leetcodeproblemClimbingStairs();
                         int waysToClimb = stairsSolution.ClimbStairs(steps);
@@ -61,7 +61,7 @@ namespace group04_FinalProject
                     }
                     else
                     {
-                        solution.InnerText = "Please enter a valid number of steps."; // Use solution div for consistent feedback
+                        solution.InnerText = "Please enter a valid number of steps."; 
                     }
                     break;
             }
