@@ -18,7 +18,7 @@ namespace group04_FinalProject
             {
                 case "Integer to Roman":
                     ProblemDescription.InnerText = "Roman numerals are represented by seven different symbols: I, V, X, L, C, D and M. Given an integer, convert it to a roman numeral.";
-                    testCase.InnerText = "Test case: Input: number = 1994";
+                    testCase.InnerText = "Test case: Input: number = 12";
                     break;
 
                 case "Basic Calculator":
@@ -47,7 +47,7 @@ namespace group04_FinalProject
 
                 case "Integer to Roman":
                     leetcodeproblemIntegertoRoman intToRomSolution = new leetcodeproblemIntegertoRoman();
-                    int number = 1994;
+                    int number = 12;
                     string romanNumeral = intToRomSolution.IntToRoman(number);
                     solution.InnerText = "Integer to Roman Solution: " + romanNumeral;
                     break;
