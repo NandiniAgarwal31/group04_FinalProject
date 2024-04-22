@@ -4,7 +4,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
+    <title>LeetCode Problem Solver</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -25,6 +25,11 @@
 
         h1 {
             color: #333;
+            margin-bottom: 20px;
+            text-align: center; /* Center the heading */
+            background-color: #ff69b4; /* Pink background */
+            padding: 10px; /* Add some padding for better appearance */
+            border-radius: 5px; 
         }
 
         #form1 {
@@ -36,16 +41,18 @@
             font-size: 16px;
             border-radius: 5px;
             margin-right: 10px;
+            border: 1px solid #ccc;
         }
 
         #btnSolve {
             padding: 10px 20px;
             font-size: 16px;
             border-radius: 5px;
-            background-color: #4CAF50;
+            background-color: #ff69b4; /* Pink color */
             color: white;
             border: none;
             cursor: pointer;
+            margin-left: 10px;
         }
 
         #ProblemDescription,
@@ -57,14 +64,14 @@
             border: 1px solid #ccc;
             border-radius: 5px;
             background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
     </style>
-
      
 </head>
 <body>
-   
-        <div>
+   <h1>LeetCode Problem Solver</h1> <!-- Added heading -->
+    <div class="container">
         
         <form id="form1" runat="server">
     <asp:DropDownList ID="ddlLeetCode" runat="server" AutoPostBack="true" OnSelectedIndexChanged="ddlLeetCode_SelectedIndexChanged">
@@ -74,7 +81,7 @@
         <asp:ListItem Text="Climbing Stairs Problem" Value="Climbing Stairs"></asp:ListItem>
     </asp:DropDownList>
 
-    <!-- TextBox for inputting the number of steps -->
+    
     <asp:Label ID="lblSteps" runat="server" Text="Enter number of steps:" AssociatedControlID="txtSteps" Visible="false"></asp:Label>
     <asp:TextBox ID="txtSteps" runat="server" Visible="false"></asp:TextBox>
 
