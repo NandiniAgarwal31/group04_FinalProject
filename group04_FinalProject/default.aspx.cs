@@ -28,7 +28,7 @@ namespace group04_FinalProject
 
                 case "Climbing Stairs":
                     ProblemDescription.InnerText = "You are climbing a staircase. It takes n steps to reach the top. Each time you can either climb 1 or 2 steps. In how many distinct ways can you climb to the top?";
-                    testCase.InnerText = "Test case: Input: n = 2";
+                    testCase.InnerText = "Test case: Input: n = 1";
                     break;
             }
         }
