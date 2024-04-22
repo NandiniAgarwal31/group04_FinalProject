@@ -28,30 +28,30 @@ namespace group04_FinalProject
                 }
                 else if (c == '(')
                 {
-                    // Push the result and the sign onto the stack
+                   
                     stack.Push(result);
                     stack.Push(sign);
-                    // Reset the result and sign for the new sub-expression
+                    
                     result = 0;
                     sign = 1;
                     i++;
                 }
                 else if (c == ')')
                 {
-                    // Pop the sign and apply it to the result
+                    
                     result *= stack.Pop();
-                    // Add the result to the next operand on the top of the stack
+                   
                     result += stack.Pop();
                     i++;
                 }
                 else if (c == ' ')
                 {
-                    // Skip spaces
+                   
                     i++;
                 }
                 else
                 {
-                    // If it's a digit, build the number and then add it to the result
+                   
                     int num = 0;
                     while (i < s.Length && char.IsDigit(s[i]))
                     {
