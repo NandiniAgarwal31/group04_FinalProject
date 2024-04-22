@@ -23,7 +23,7 @@ namespace group04_FinalProject
 
                 case "Basic Calculator":
                     ProblemDescription.InnerText = "Given a string s representing a valid expression, implement a basic calculator to evaluate it, and return the result of the evaluation.";
-                    testCase.InnerText = "Test case: Input: s = '0- 1'";
+                    testCase.InnerText = "Test case: Input: s = 0- 1";
                     break;
 
                 case "Climbing Stairs":
