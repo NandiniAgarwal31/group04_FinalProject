@@ -6,7 +6,7 @@
 #Course: IS 3050
 #Semester/Year: Spring 2024
 #Brief Description: Solved three LeetCodeProblem Solutions, difficulties- easy, hard, medium
-#Citations: https://github.com/NandiniAnalytics/group04_FinalProject/commits/master/
+#Citations: https://github.com/NandiniAgarwal31/group04_FinalProject/commits/master
 #Anything else that's relevant
 */
 
