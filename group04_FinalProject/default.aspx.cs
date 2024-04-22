@@ -23,7 +23,7 @@ namespace group04_FinalProject
 
                 case "Basic Calculator":
                     ProblemDescription.InnerText = "Given a string s representing a valid expression, implement a basic calculator to evaluate it, and return the result of the evaluation.";
-                    testCase.InnerText = "Test case: Input: s = 0- 1";
+                    testCase.InnerText = "Test case: Input: s = 10 + 5 - 13";
                     break;
 
                 case "Climbing Stairs":
@@ -40,7 +40,7 @@ namespace group04_FinalProject
             {
                 case "Basic Calculator":
                     LeetcodeProblemBasicCalculator calcSolution = new LeetcodeProblemBasicCalculator();
-                    string expression = "1 + 0 - 2";
+                    string expression = "10 + 5 - 13";
                     int result = calcSolution.Calculate(expression);
                     solution.InnerText = "Basic Calculator Solution: " + result;
                     break;
