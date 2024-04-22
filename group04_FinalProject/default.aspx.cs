@@ -28,7 +28,7 @@ namespace group04_FinalProject
 
                 case "Climbing Stairs":
                     ProblemDescription.InnerText = "You are climbing a staircase. It takes n steps to reach the top. Each time you can either climb 1 or 2 steps. In how many distinct ways can you climb to the top?";
-                    testCase.InnerText = "Test case: Input: n = 1";
+                    testCase.InnerText = "Test case: Input: n = 10";
                     break;
             }
         }
@@ -56,13 +56,13 @@ namespace group04_FinalProject
                     ProblemDescription.InnerText = "You are climbing a staircase. It takes n steps to reach the top. Each time you can either climb 1 or 2 steps. In how many distinct ways can you climb to the top?";
                     testCase.InnerText = "Test case: Input: n = 1";
 
-                    // Clear any previous solution
-                    solution.InnerText = "1";
+                    
+                    solution.InnerText = "10 Steps";
 
-                    // Optionally, you can enable or disable the input box based on the scenario
-                    txtSteps.Enabled = false; // Disable the input box to prevent user input
+                    
+                    txtSteps.Enabled = false; 
 
-                    // You can also optionally trigger the calculation here if needed
+                    
 
                     break;
 
