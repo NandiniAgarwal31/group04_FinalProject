@@ -1,4 +1,17 @@
-﻿using System;
+﻿/*
+#Name:Manaal Ameer
+#Email: ameerml@mail.uc.edu
+#Assignment Title : Final Project
+#Due Date: 04/23/2024
+#Course: IS 3050
+#Semester/Year: Spring 2024
+#Brief Description: LeetCode Problem Climbing Stairs
+#Citations: https://leetcode.com/problems/climbing-stairs/
+#Anything else that's relevant
+*/
+
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
