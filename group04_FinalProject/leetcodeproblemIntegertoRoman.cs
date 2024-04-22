@@ -5,7 +5,7 @@
 #Due Date: 04/23/2024
 #Course: IS 3050
 #Semester/Year: Spring 2024
-#Brief Description: 
+#Brief Description: Leetcode problem integer to roman, Roman numerals are represented by seven different symbols: I, V, X, L, C, D and M. Given an integer, convert it to a roman numeral.
 #Citations: 
 #Anything else that's relevant
 */
